@@ -1,4 +1,4 @@
-# Assignment 0: Milestones in the History of Computing (due 02/02/25)
+# Assignment 0: Milestones in the History of Computing
 
 In this assignment you are expected to work in groups.   Your group will write a short paper titled: `Milestones in the History of Computing`.  To this end, follow the steps below:
 
