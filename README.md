@@ -17,10 +17,10 @@
 
 | Day        | Staff Member         | Time                  | Location                                                                 |
 |------------|----------------------|-----------------------|--------------------------------------------------------------------------|
-| Tuesday    | Roquibat <br> Osman  | 10:00 AM - 12:00 PM   | TBD                 |
-| Wednesday  | Roquibat <br> Osman  | 11:00 AM - 12:00 PM   | TBD                 |
-| Thursday   | Roquibat <br> Osman  | 10:00 AM - 12:00 PM   | TBD                 |
-| Friday     | Roquibat <br> Osman  | 11:00 AM - 12:00 PM   | TBD                 |
+| Tuesday    | Roquibat <br> Osman  | 10:00 AM - 12:00 PM   | Tyler 055                 |
+| Wednesday  | Roquibat <br> Osman  | 11:00 AM - 12:00 PM   | Tyler 055                 |
+| Thursday   | Roquibat <br> Osman  | 10:00 AM - 12:00 PM   | Tyler 055                 |
+| Friday     | Roquibat <br> Osman  | 11:00 AM - 12:00 PM   | Tyler 055                 |
 
 
 
@@ -34,8 +34,8 @@
 
 | Day       | Staff Member              | Time            | Room                         |
 |-----------|---------------------------|-----------------|------------------------------|
-| Monday    | Roquibat <br> Osman    | 9:00 AM - 10:00 AM | TBD            |
-| Thursday  | Roquibat <br> Osman     | 3:30 PM - 5:15 PM | TBD             |
+| Tuesday    | Roquibat <br> Osman    | 9:00 AM - 10:00 AM | Tyler 055            |
+| Thursday  | Roquibat <br> Osman     | 9:00 AM - 10:00 AM | Tyler 055             |
 
 
  **Lab**
