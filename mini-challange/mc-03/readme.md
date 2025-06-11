@@ -12,6 +12,7 @@ If the question specifies that it will take a `double` then a `char` you must fo
 For details on expected submission instructions, please refer to the **Submission and Grading** section at the bottom of the document.
 
 Before getting started, be advised that most of the questions will only require `std::cin` for reading the data (especially integers and floats).  If you need to read an arbitrary number of integers you can use a pattern like this, which will keep reading values until the end of the input:
+
 ```c++
 while (std::cin >> value) {
   // do something with value
