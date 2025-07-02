@@ -45,7 +45,7 @@ else {
 
 int main(){
 
-    diceRolls(5);
+    diceRolls(3);
 
 return 0;
 }
