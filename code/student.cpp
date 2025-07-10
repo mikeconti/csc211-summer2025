@@ -21,7 +21,7 @@ struct Student {
 };
 
 void changeMajor(Student &someStudent){
-    std::cout << "Change Major: ";
+    std::cout << "Change Major: " << std::endl;
     std::cin >> someStudent.major;
 
 }
@@ -34,24 +34,29 @@ void printStudent(Student &someStudent){
 }
 
 void buildStudent(Student &someStudent){
-    std::cout << "Enter student name";
+    std::cout << "Enter student name" << std::endl;
     std::cin >> someStudent.name;
 
-    std::cout << "Enter student major";
+    std::cout << "Enter student major" << std::endl;
     std::cin >> someStudent.major;
 
-        std::cout << "Enter student ID";
+    std::cout << "Enter student ID" << std::endl;
     std::cin >> someStudent.studentID;
 
 }
 
 int main(){
 
-    struct Student mike;
+    Student mike; // int a;
+    Student sarah; // int a;
 
     buildStudent(mike);
+    buildStudent(sarah);
+
     printStudent(mike);
+
     changeMajor(mike);
+
     printStudent(mike);
 
 }
