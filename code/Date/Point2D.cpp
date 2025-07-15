@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 #include <cmath>
+#include "Point2D.h"
 
 // Modify Point2D.cpp (on GitHub at ~/code) so it includes the following:
 // Default Constructor
@@ -10,34 +11,6 @@
 // Class file (Point2D.cpp)
 // Header/Interface file (Point2D.h)
 // Driver (main.cpp)
-
-class Point {
-    int x;
-    int y;
-    int z;
-    
-    public:
-        // Default constructor  //TODO 
-        Point();
-
-        //Constructs a point object with X, Y, Z properties //TODO
-        Point(int someX, int someY, int someZ);
-
-        //Sets the X, Y, and Z properties of a point Object
-        void setX(int someX);
-        void setY(int someY);
-        void setZ(int someZ);
-        
-        //Gets the X, Y, and Z properties from a point Object
-        int getX();
-        int getY();
-        int getZ();
-        
-        //Returns a cartesian coordinate representation of a point Object
-        // aka = (x,y,z)
-        std::string toCord();
-        
-};
 
 //Constructs a point object with X, Y, Z properties
 //TODO 
@@ -90,25 +63,3 @@ std::string Point::toCord()
     return coords;
 }
 
-int main()
-{
-
-    Point myPt;
-
-    myPt.setX(10);
-    myPt.setY(20);
-    myPt.setZ(30);
-
-    Point myPt2(3, 10, 15);
-
-    int myX = myPt.getX();
-
-    std::cout << myX << std::endl;
-
-    std::cout << myPt.toCord() << std::endl;
-    std::cout << myPt2.toCord() << std::endl;
-
-
-
-return 0;
-}
