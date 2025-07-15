@@ -13,7 +13,10 @@ class Date {
 
     public:
         
-        void set(int m, int d, int y);
+        void addYears(int y);
+        void addMonths(int m);
+        void addDays(int d);
+
         void print();
 };
 
@@ -28,16 +31,38 @@ void Date::set(int m, int d, int y) {
     year = y;
 }
 
+void Date::addYears(int year){
+
+    this->year = this->year + year;
+}
+
+
+ 
+void Date::addMonths(int m){
+
+    month += m;
+
+}
+
+void Date::addDays(int d){
+
+    day += d;
+
+}
 
 int main(){
 
     Date today;
+    Date tomorrow;
 
     today.set(11, 04, 2023);
+    today.set(11, 05, 2023);
     today.print();
 
 
     today.addYears(1);
+    tomorrow.addYears(1);
+
     today.addMonths(1);
     today.addDay(1);
     today.print();
