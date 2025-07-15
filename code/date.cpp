@@ -53,7 +53,7 @@ void Date::addDays(int d){
 int main(){
 
     Date today;
-    Date tomorrow;
+    Date tomorrow();
 
     today.set(11, 04, 2023);
     today.set(11, 05, 2023);
