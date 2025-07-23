@@ -25,47 +25,34 @@ void Date::print() {
 }
 
 
-void Date::set(int m, int d, int y) {
-    month = m;
-    day = d;
-    year = y;
-}
+// void Date::set(int m, int d, int y) {
+//     month = m;
+//     day = d;
+//     year = y;
+// }
 
-void Date::addYears(int year){
+// void Date::addYears(int year){
 
-    this->year = this->year + year;
-}
+//     this->year = this->year + year;
+// }
 
 
  
-void Date::addMonths(int m){
+// void Date::addMonths(int m){
 
-    month += m;
+//     month += m;
 
-}
+// }
 
-void Date::addDays(int d){
+// void Date::addDays(int d){
 
-    day += d;
+//     day += d;
 
-}
+// }
 
 int main(){
 
-    Date today;
-    Date tomorrow();
-
-    today.set(11, 04, 2023);
-    today.set(11, 05, 2023);
-    today.print();
-
-
-    today.addYears(1);
-    tomorrow.addYears(1);
-
-    today.addMonths(1);
-    today.addDay(1);
-    today.print();
+ 
 
     return 0;
 }
